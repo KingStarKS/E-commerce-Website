@@ -214,4 +214,7 @@ mysqli_stmt_close($stmt);
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+<br>
+<br>
+<?php include 'includes/footer.php'; ?>
 </html>

@@ -172,7 +172,7 @@ if (count($product_ids) > 0) {
           <?php foreach ($products as $product): ?>
             <div class="col">
               <div class="card product-card h-100">
-                <img src="images/<?php echo htmlspecialchars($product['image']); ?>" class="card-img-top" alt="<?php echo htmlspecialchars($product['name']); ?>">
+                <img src="uploads/<?php echo htmlspecialchars($product['image']); ?>" class="card-img-top" alt="<?php echo htmlspecialchars($product['name']); ?>">
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title"><?php echo htmlspecialchars($product['name']); ?></h5>
                   <p class="card-text">$<?php echo number_format($product['price'], 2); ?></p>
@@ -249,6 +249,8 @@ if (count($product_ids) > 0) {
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+<br>
 </body>
+<br>
+<?php include 'includes/footer.php'; ?>
 </html>
